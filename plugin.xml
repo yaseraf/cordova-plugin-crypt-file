@@ -38,7 +38,8 @@
             <file regex="\.(htm|html|js|css)$" />
         </include>
         <exclude>
-        </exclude>
+        <file regex="exclude_file\.js$" />
+    </exclude>
     </cryptfiles>
 
     <hook type="after_prepare" src="hooks/after_prepare.js" />
